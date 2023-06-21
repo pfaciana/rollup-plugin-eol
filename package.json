@@ -1,0 +1,39 @@
+{
+	"name": "rollup-plugin-eol",
+	"version": "1.0.0",
+	"description": "A Rollup plugin for normalizing line endings in rollup output files, rollup watcher files and/or a custom glob pattern of files",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pfaciana/rollup-plugin-eol.git"
+	},
+	"keywords": [
+		"rollup",
+		"rollup-plugin",
+		"plugin",
+		"bundle",
+		"eol",
+		"end-of-line",
+		"line-breaks",
+		"newline",
+		"cr",
+		"lf",
+		"crlf"
+	],
+	"author": "Phil Faciana <phil@renderdev.com> (https://renderdev.com/)",
+	"license": "MIT",
+	"homepage": "https://github.com/pfaciana/rollup-plugin-eol",
+	"engines": {
+		"node": ">=16 || 14 >=14.18"
+	},
+	"devDependencies": {
+		"rollup": "^3"
+	},
+	"dependencies": {
+		"@rollup/pluginutils": "^5",
+		"chalk": "^5",
+		"glob": "^10"
+	}
+}
